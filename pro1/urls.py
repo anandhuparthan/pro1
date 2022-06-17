@@ -22,5 +22,6 @@ urlpatterns = [
     path('abc/', views.home),
     path('efg/', views.index),
     path("third/", views.page),
-    path("facebook/",views.fb)
+    path("facebook/",views.fb),
+    path('',views.main)
 ]

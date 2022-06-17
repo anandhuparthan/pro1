@@ -12,5 +12,11 @@ def index(request):
 
 def page(request):
     return HttpResponse("Third page")
+
+
 def fb(request):
     return HttpResponse("No link")
+
+
+def main(request):
+    return render(request, 'index.html')
